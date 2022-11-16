@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Quality Analysis</title>
+    <link rel="stylesheet" href="../static/index.css">
+</head>
+<body>
+    <center><div class="header1"><font color="FF0000" font-family="Fascinate Inline">Water Quality Analysis</font></div></center>
+    <br><br><br>
+    <form class="fill" action="/login" method="post">
+        <br>
+        <center>
+            <label>Enter Year :</label>
+        <input type="text" name="year" placeholder="Enter Year" id=""><br><br>
+        <label>Enter D.O :</label>
+            <input type="text" name="do" placeholder="Enter D.O" id=""><br><br>
+        <label>Enter PH :</label>
+            <input type="text" name="ph" placeholder="Enter PH" id=""><br><br>
+            <label>Enter Conductivity :</label>
+            <input type="text" name="co" placeholder="Enter Conductivity" id=""><br><br>
+        <label>Enter B.O.D :</label>
+            <input type="text" name="bod" placeholder="Enter B.O.D" id=""><br><br>
+        <label>Enter Nitratenen :</label>
+            <input type="text" name="na" placeholder="Enter Nitratenen" id=""><br><br>
+        <label>Enter Total Coliform :</label>
+            <input type="text" name="tc" placeholder="Enter Total Coliform" id=""><br><br>
+            <input type="submit" class="logbtn" value="Predict" style="width: 10%;">
+        </center>
+        <div class="bor"><center><b><font color="black" size=5>{{showcase}}</font></b></center></div>
+    </form>
+</body>
+</html>
